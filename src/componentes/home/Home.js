@@ -1,11 +1,10 @@
 import React from 'react';
 
 import Menu from '../menu/Menu';
-import Slider from './slider/Slider';
 import Servicios from './servicios/Servicios';
 import Footer from '../footer/Footer';
 import Jumbotronhome from './jumbotronhome/Jumbotronhome';
-
+import Titulo from '../titulo/Titulo';
 
 class Home extends React.Component {
 
@@ -16,14 +15,14 @@ class Home extends React.Component {
 			<>
 
 			<Menu />
-
+			<Titulo />
 			<main role="main" className="flex-shrink-0 mt-5">
 
 		        <div className="container">
 		  	  		
-		  	  		<Slider />
+		  	  		{/* <Slider />
 						<hr className="featurette-divider" />
-
+ */}
 		  	  		<Servicios />
 						<hr className="featurette-divider" />
 

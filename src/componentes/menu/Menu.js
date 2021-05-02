@@ -8,9 +8,9 @@ class Menu extends React.Component {
 
   	return (
 
-  		  <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  		  <nav className="navbar navbar-expand-md navbar-light bg-light">
 
-		    <NavLink to="/" className="navbar-brand">Mi Proyecto</NavLink>
+		    <NavLink to="/" className="navbar-brand">The Kids of Belen</NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
@@ -21,10 +21,13 @@ class Menu extends React.Component {
 			          	<NavLink to="/" className="nav-link">Home </NavLink>
 			        </li>
 			        <li className="nav-item">
-			        	<NavLink to="/nosotros" className="nav-link">Nosotros </NavLink>
+			        	<NavLink to="/nosotros" className="nav-link">About us </NavLink>
 			        </li>
 			        <li className="nav-item">
-			          	<NavLink to="/servicios" className="nav-link">Servicios </NavLink>
+			          	<NavLink to="/servicios" className="nav-link"> </NavLink>
+			        </li>
+			        <li className="nav-item">
+			          	<NavLink to="/galeria" className="nav-link">Clothing </NavLink>
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/contacto" className="nav-link">Contacto </NavLink>
@@ -39,7 +42,6 @@ class Menu extends React.Component {
 		    </div>		    
 
 		</nav>
-
 
 
 	)

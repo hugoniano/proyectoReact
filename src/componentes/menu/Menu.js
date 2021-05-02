@@ -8,7 +8,7 @@ class Menu extends React.Component {
 
   	return (
 
-  		<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  		  <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
 
 		    <NavLink to="/" className="navbar-brand">Mi Proyecto</NavLink>
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,13 +34,15 @@ class Menu extends React.Component {
 
 			    <form className="form-inline mt-2 mt-md-0">
 			        <input className="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar"/>
-			        <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+			        <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
 			    </form>
 		    </div>		    
 
 		</nav>
 
-  	)
+
+
+	)
     
   }
 

@@ -10,6 +10,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 // Páginas del Sitio Web
 import Home from './componentes/home/Home'; 
 import Nosotros from './componentes/nosotros/Nosotros';
+import Galeria from './componentes/galeria/Galeria';
 import Servicios from './componentes/servicios/Servicios';
 import Contacto from './componentes/contacto/Contacto';
  
@@ -23,6 +24,7 @@ ReactDOM.render(
 		        {/* Páginas */}
 		        <Route exact path='/' component={Home} />
 		        <Route path='/nosotros' component={Nosotros} />
+		        <Route path='/galeria' component={Galeria} /> 
 		        <Route path='/servicios' component={Servicios} /> 
 		        <Route path='/contacto' component={Contacto} /> 
  

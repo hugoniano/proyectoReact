@@ -4,6 +4,7 @@ import Menu from '../menu/Menu';
 import Slider from './slider/Slider';
 import Servicios from './servicios/Servicios';
 import Footer from '../footer/Footer';
+import Jumbotronhome from './jumbotronhome/Jumbotronhome';
 
 
 class Home extends React.Component {
@@ -21,7 +22,12 @@ class Home extends React.Component {
 		        <div className="container">
 		  	  		
 		  	  		<Slider />
+						<hr className="featurette-divider" />
+
 		  	  		<Servicios />
+						<hr className="featurette-divider" />
+
+		  	  		<Jumbotronhome />
 
 		  	  		<hr className="featurette-divider" />
 

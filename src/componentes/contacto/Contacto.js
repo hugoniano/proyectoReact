@@ -1,6 +1,7 @@
 import React from 'react';
  
 import Menu from '../menu/Menu';
+import Titulo from '../titulo/Titulo';
 import Formulario from './formulario/Formulario'; 
 import Mapa from './mapa/Mapa'; 
 import Footer from '../footer/Footer';
@@ -15,6 +16,9 @@ class Contacto extends React.Component {
 			<>
  
 			<Menu />
+			<hr></hr>
+			<Titulo />
+       		<hr></hr>
  
 			<main role="main" className="flex-shrink-0 mt-5">
  

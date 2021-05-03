@@ -11,6 +11,7 @@ class Menu extends React.Component {
   		  <nav className="navbar navbar-expand-md navbar-light bg-light">
 
 		    <NavLink to="/" className="navbar-brand">The Kids of Belen</NavLink>
+				
 		    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 		     	<span className="navbar-toggler-icon"></span>
 		    </button>
@@ -21,10 +22,10 @@ class Menu extends React.Component {
 			          	<NavLink to="/" className="nav-link">Home </NavLink>
 			        </li>
 			        <li className="nav-item">
-			        	<NavLink to="/nosotros" className="nav-link">About us </NavLink>
+			        	<NavLink to="/nosotros" className="nav-link"> Acerca de <span><i>Los niños</i></span></NavLink>
 			        </li>
 			        <li className="nav-item">
-			          	<NavLink to="/servicios" className="nav-link"> </NavLink>
+			          	<NavLink to="/servicios" className="nav-link"> </NavLink> {/*No se aun que hacer con esta pestaña */}
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/galeria" className="nav-link">Clothing </NavLink>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from '../menu/Menu';
+import Titulo from '../titulo/Titulo';
 import Footer from '../footer/Footer';
  
 class Galeria extends React.Component {
@@ -12,14 +13,16 @@ class Galeria extends React.Component {
 			<>
  
 			<Menu />
-        <hr></hr>
+			<hr></hr>
+			<Titulo />
+       		<hr></hr>
 			<main role="main" className="flex-shrink-0 mt-5">
  
 				<section className="text-center">
 				    <div className="container">
 				      <h1 className="jumbotron-heading">Clothing </h1>
 				      <p className="lead text-muted">
-				      	Estas son las prendas que manejamos en los niños de Belen Clothing Brand
+					  Nuestras prendas están inspiradas en los estilos retro de los años 70's, 80's y 90's. Una mezcla de estilos y géneros musicales como la salsa, el jazz, el soul y el hip hop convirtiéndose en un crisol de muchas culturas, sonidos, formas de vestir. Es una reformación de lo clásico, de lo vintage, de todo lo que nos dejó el siglo XX.
 				      </p>				      
 				    </div>
                     <hr></hr>
@@ -96,7 +99,7 @@ class Galeria extends React.Component {
 				          </div>
 				        </div>
  
-				        <div className="col-md-4"> {/*Agregué otras seis cards*/}
+				        <div className="col-md-4"> {/*Agregué más cards*/}
 				          <div className="card mb-4 shadow-sm">
                           <img src={process.env.PUBLIC_URL + 'images/dragon.jpeg'}></img>					            <div className="card-body">
 				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -149,6 +152,63 @@ class Galeria extends React.Component {
 				        <div className="col-md-4">
 				          <div className="card mb-4 shadow-sm">
                             <img src={process.env.PUBLIC_URL + 'images/kidsCamisa2.jpeg'}></img>					            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+
+                        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                          <img src={process.env.PUBLIC_URL + 'images/cincoDoce.jpeg'}></img>					            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                              <img src={process.env.PUBLIC_URL + 'images/cincoDoce2.jpeg'}></img>	
+                               <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">             
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                            <img src={process.env.PUBLIC_URL + 'images/cincoDoce3.jpeg'}></img>					            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+                        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                          <img src={process.env.PUBLIC_URL + 'images/yo.jpeg'}></img>					            <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">                
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                              <img src={process.env.PUBLIC_URL + 'images/yoEspalda.jpeg'}></img>	
+                               <div className="card-body">
+				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				              <div className="d-flex justify-content-between align-items-center">             
+				              </div>
+				            </div>
+				          </div>
+				        </div>
+				        <div className="col-md-4">
+				          <div className="card mb-4 shadow-sm">
+                            <img src={process.env.PUBLIC_URL + 'images/nianitoSolito.jpeg'}></img>					            <div className="card-body">
 				              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 				              <div className="d-flex justify-content-between align-items-center">
 				              </div>

@@ -1,7 +1,7 @@
 import React from 'react';
  
 import Menu from '../menu/Menu';
- 
+import Titulo from '../titulo/Titulo';
 import Footer from '../footer/Footer';
  
  
@@ -14,6 +14,9 @@ class Servicios extends React.Component {
 			<>
  
 			<Menu />
+			<hr></hr>
+			<Titulo />
+       		<hr></hr>
  
 			<main role="main" className="flex-shrink-0 mt-5">
  

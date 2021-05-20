@@ -12,29 +12,55 @@ class Slider extends React.Component {
 		        <li data-target="#slider" data-slide-to="0" className="active"></li>
 		        <li data-target="#slider" data-slide-to="1"></li>
 		        <li data-target="#slider" data-slide-to="2"></li>
+		        <li data-target="#slider" data-slide-to="3"></li>
+		        <li data-target="#slider" data-slide-to="4"></li>
+		        <li data-target="#slider" data-slide-to="5"></li>
+		        <li data-target="#slider" data-slide-to="6"></li>
 		    </ol>
 
 		    <div className="carousel-inner">
 		        <div className="carousel-item active">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/get1.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco1.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-primary" href="" target="_blank" role="button">Leer más</a>
+		                <a className="btn btn-lg btn-secondary" href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 
 		        <div className="carousel-item">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/fondo.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco2.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-primary" href="" target="_blank" role="button">Leer más</a>
+		                <a className="btn btn-lg btn-secondary" href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 
 		        <div className="carousel-item">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/3342.jpg'} width="1150" height="80" />
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco3.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-primary" href="" target="_blank" role="button">Leer más</a>
+		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
+
+		        <div className="carousel-item">
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco4.jpeg'} width="1150" height="80" />
+		            <div className="elementos">
+		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		            </div>
+		        </div>
+
+		        <div className="carousel-item">
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco5.jpeg'} width="1150" height="80" />
+		            <div className="elementos">
+		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		            </div>
+		        </div>
+
+		        <div className="carousel-item">
+		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco6.jpeg'} width="1150" height="80" />
+		            <div className="elementos">
+		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		            </div>
+		        </div>
+
 		    </div>
 
 

@@ -6,11 +6,17 @@ class Footer extends React.Component {
   render() {
  
     return (
- 
-        <footer className="container">
-            <p className="float-right"><a href="#">Volver al home</a></p>
-            <p>&copy; {(new Date().getFullYear())} Los Niños de Belen, Inc. &middot; <a href="#">Política de Privacidad</a> &middot; <a href="#">Términos</a></p>
-        </footer>
+      
+      <div class="container p-3">
+        <div class="row text-center">
+          <div class="col ml-auto">
+          <p className="float-right"><a href="#">Volver a página principal</a></p>
+          <p>&middot; &copy; {(new Date().getFullYear())} by The Kids of Belen Brand &middot; </p>
+            {/* <p>Copyright &copy; 2021 by The Kids of Belen Brand</p> */}
+          </div>
+        </div>       
+    </div>
+        
  
     )
     

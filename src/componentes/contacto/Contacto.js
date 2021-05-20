@@ -24,8 +24,6 @@ class Contacto extends React.Component {
  
 				<div className="container">
  
-					<h1 className="mb-5">Contacto</h1>
- 
             		<div className="row">
  
             			<div className="col-md-6">

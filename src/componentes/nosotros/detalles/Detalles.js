@@ -20,7 +20,9 @@ class Detalles extends React.Component {
           <img src={process.env.PUBLIC_URL + 'images/Hugo.jpg'} class="img-fluid rounded-circle w-50 "></img>
           <h3>Hugo A. Montoya</h3>
           <p>
-            Empresario, bartender, y encargado comercial de la marca. Fundador e ideador de las tendencias de la marca.
+            Empresario, bartender, y encargado co
+            
+            }mercial de la marca. Fundador e ideador de las tendencias de la marca.
           </p>
         <div className="d-flex flex-row justify-content-center">
           <div className="p-4">

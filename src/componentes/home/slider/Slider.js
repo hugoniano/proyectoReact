@@ -36,28 +36,28 @@ class Slider extends React.Component {
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco3.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco4.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco5.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		                <a className="btn btn-lg btn-secondary" href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 
 		        <div className="carousel-item">
 		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco6.jpeg'} width="1150" height="80" />
 		            <div className="elementos">
-		                <a className="btn btn-lg btn-secondary align-center" href="" target="_blank" role="button">Comprar</a>
+		                <a className="btn btn-lg btn-secondary " href="" target="_blank" role="button">Comprar</a>
 		            </div>
 		        </div>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
-//import './Menu.css';
+import './Menu.css';
 
 class Menu extends React.Component {
 
@@ -8,7 +8,7 @@ class Menu extends React.Component {
 
   	return (
 
-  		  <nav className="navbar navbar-expand-md navbar-light bg-light">
+  		  <nav className="navbar navbar-expand-md">
 
 		    <NavLink to="/" className="navbar-brand">The Kids of Belen</NavLink>
 				
@@ -25,7 +25,7 @@ class Menu extends React.Component {
 			        	<NavLink to="/nosotros" className="nav-link"> Acerca de <span><i>Los niños</i></span></NavLink>
 			        </li>
 			        <li className="nav-item">
-			          	<NavLink to="/servicios" className="nav-link"> </NavLink> {/*No se aun que hacer con esta pestaña */}
+			          	<NavLink to="/servicios" className="nav-link"> Servicios </NavLink>
 			        </li>
 			        <li className="nav-item">
 			          	<NavLink to="/galeria" className="nav-link">Clothing </NavLink>
@@ -38,7 +38,7 @@ class Menu extends React.Component {
 
 			    <form className="form-inline mt-2 mt-md-0">
 			        <input className="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Buscar"/>
-			        <button className="btn btn-outline-dark my-2 my-sm-0" type="submit">Buscar</button>
+			        <button className="btn-white rounded my-2 my-sm-0" type="submit">Buscar</button>
 			    </form>
 		    </div>		    
 

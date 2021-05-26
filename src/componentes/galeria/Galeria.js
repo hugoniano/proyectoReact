@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from '../menu/Menu';
 import Titulo from '../titulo/Titulo';
 import Footer from '../footer/Footer';
+import './Galeria.css';
  
 class Galeria extends React.Component {
  
@@ -13,21 +14,21 @@ class Galeria extends React.Component {
 			<>
  
 			<Menu />
-			<hr></hr>
+			
 			<Titulo />
-       		<hr></hr>
-			<main role="main" className="flex-shrink-0 mt-5">
+       		
+			<div className="galeria">
  
 				<section className="text-center">
-				    <div className="container">
-				      <h1 className="jumbotron-heading">Clothing </h1>
-				      <p className="lead text-muted">
+				    <div className="container p-5">
+				      <h1 className="jumbotron-heading titulo">Clothing </h1>
+				      <p className="lead">
 					  Nuestras prendas están inspiradas en los estilos retro de los años 70's, 80's y 90's. Una mezcla de estilos y géneros musicales como la salsa, el jazz, el soul y el hip hop convirtiéndose en un crisol de muchas culturas, sonidos, formas de vestir. Es una reformación de lo clásico, de lo vintage, de todo lo que nos dejó el siglo XX.
 				      </p>				      
 				    </div>
-                    <hr></hr>
+                    
 				</section>
- 
+			<div className="galeria">
 		        <div className="album py-5 bg-light">
 				    <div className="container">
  
@@ -220,9 +221,9 @@ class Galeria extends React.Component {
 				      </div>
 				    </div>
 				</div>
-                                
-		    
-	  		</main>
+			</div>                   
+		     
+	  		</div>
  
 	  		<Footer />
  

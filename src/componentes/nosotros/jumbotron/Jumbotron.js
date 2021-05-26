@@ -6,8 +6,8 @@ class Jumbotron extends React.Component {
  
     return (
  
-  <div className="jumbotron">
-    <section className="container text-center p-5" >
+  <div className="jumbotron ">
+    <section className="container text-center " >
       <div className="row text-center justify-content-center align-self-center">
           <h1 className="display-3 ">Acerca de nosotros</h1>
         <div className="accordion" id="">

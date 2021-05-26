@@ -1,22 +1,24 @@
 import React from 'react';
- 
+import './Footer.css'
  
 class Footer extends React.Component {
  
   render() {
  
     return (
-      
-      <div class="container p-3">
-        <div class="row text-center">
-          <div class="col ml-auto">
-          <p className="float-right"><a href="#">Volver a página principal</a></p>
+    <div  className="footer">
+      <div className="container p-3 footer">
+        <div className="row text-center">
+          <div className="col ml-auto">
+            <button className="float-right">
+            <p><a href="#">HOME</a></p>
+            </button>
           <p>&middot; &copy; {(new Date().getFullYear())} by The Kids of Belen Brand &middot; </p>
             {/* <p>Copyright &copy; 2021 by The Kids of Belen Brand</p> */}
           </div>
         </div>       
-    </div>
-        
+      </div>
+    </div>        
  
     )
     

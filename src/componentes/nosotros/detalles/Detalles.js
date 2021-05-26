@@ -1,28 +1,27 @@
 import React from 'react';
- 
+import './Detalles.css';
+
 class Detalles extends React.Component {
  
   render() {
  
     return (
  
-    
+<div className="detalles">   
 <div className="container p-5">
         <h1 className="text-center titulo">The Kids's Team</h1>
-        <p className="text-center">
+        <p className="text-center titulo">
             Este es nuestro equipo de trabajo, los niños de Belén:
         </p>
         
     <div className= "row">
-     <div className="col-md-3 text-center justify-content-center align-self-center">
+     <div className="col-lg-3 text-center justify-content-center align-self-center">
        <div className="card izquierda">
           <div className="card-body ">
           <img src={process.env.PUBLIC_URL + 'images/Hugo.jpg'} class="img-fluid rounded-circle w-50 "></img>
           <h3>Hugo A. Montoya</h3>
           <p>
-            Empresario, bartender, y encargado co
-            
-            }mercial de la marca. Fundador e ideador de las tendencias de la marca.
+            Empresario, bartender, y encargado comercial de la marca. Fundador e ideador de las tendencias de la marca.
           </p>
         <div className="d-flex flex-row justify-content-center">
           <div className="p-4">
@@ -37,7 +36,7 @@ class Detalles extends React.Component {
       </div>
      </div>
     
-     <div className="col-md-3 text-center justify-content-center align-self-center">
+     <div className="col-lg-3 text-center justify-content-center align-self-center">
        <div className="card izquierda">
           <div className="card-body ">
           <img src={process.env.PUBLIC_URL + 'images/Cana.jpg'} class="img-fluid rounded-circle w-50 "></img>
@@ -102,7 +101,7 @@ class Detalles extends React.Component {
  </div>
 
 </div>
-    
+</div>     
 
     )
     

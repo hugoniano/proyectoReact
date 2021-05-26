@@ -11,8 +11,8 @@ class Formulario extends React.Component {
       <div className="container bg-light py-5">
         <div className="row">
           <div className="col-md-12">
-            <h3 className="titulo">Contáctanos</h3>
-            <p className="titulo">
+            <h3 className="">Contáctanos</h3>
+            <p className="">
               Déjales un mensaje a los Niños de Belén, con prontitud tendrás una respuesta. 
             </p>
             <form action="" clasName="formulario">

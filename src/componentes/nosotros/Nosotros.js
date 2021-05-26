@@ -15,14 +15,15 @@ class Nosotros extends React.Component {
 			<>
  
 			<Menu />
-			<hr></hr>
+			
 			<Titulo/>
 			
-			<main role="main" className="flex-shrink-0 mt-5">
+			
 		        
-				<Jumbotron />  
-				<Detalles /> 
-	  		</main>
+			<Detalles />
+			<Jumbotron />  
+				 
+	  		
  
 	  		<Footer />
  

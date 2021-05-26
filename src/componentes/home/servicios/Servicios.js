@@ -1,5 +1,5 @@
 import React from 'react';
-//import './Slider.css';
+import './Servicios.css';
  
 class Servicios extends React.Component {
  
@@ -9,16 +9,16 @@ class Servicios extends React.Component {
  
         <div className="container servicios">
  
-        <div class="container">
-          <h1 class="text-center titulo">Este es nuestro estilo de vida</h1>
-          <p class="text-center">
+        <div className="container">
+          <h1 className="text-center">Este es nuestro estilo de vida</h1>
+          <p className="text-center">
                 Nuestro proyecto está enfocado en 4 tópicos:
           </p>
 
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card text-center ">
-              <div class="card-body">
+        <div className="row">
+          <div className="col-md-3">
+            <div className="card text-center ">
+              <div className="card-body">
               <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#777" />
@@ -26,14 +26,14 @@ class Servicios extends React.Component {
                     </svg>
                 <h3>Vestimenta</h3>
                 <p>
-                  El vestir expresando nuestras experiencias, ideas y gustos es el alma de <span><i>los Niños</i></span> . Plasmar el barrio, la elegancia, la frescura y la sorneridad en nuestra ropa.
+                  El vestir expresando nuestras experiencias, ideas y gustos es el alma de <span><i>los Niños</i></span> de Belén. Nuestro deseo es plasmar el barrio, la elegancia, la frescura y la sorneridad en nuestra ropa.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center text-white bg-secondary ">
-              <div class="card-body">
+          <div className="col-md-3">
+            <div className="card text-center text-white card-cualquiera ">
+              <div className="card-body">
               <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#777" />
@@ -46,9 +46,9 @@ class Servicios extends React.Component {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center ">
-              <div class="card-body ">
+          <div className="col-md-3">
+            <div className="card text-center ">
+              <div className="card-body ">
               <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#777" />
@@ -61,9 +61,9 @@ class Servicios extends React.Component {
               </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card text-center text-white bg-secondary">
-              <div class="card-body">
+          <div className="col-md-3">
+            <div className="card text-center text-white card-cualquiera">
+              <div className="card-body">
               <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
                         <title>Placeholder</title>
                         <rect width="100%" height="100%" fill="#777" />

@@ -17,7 +17,7 @@ class Header extends React.Component {
                 The Kids of Belen.
                         </h1>
                         <p>Bienvenido a un estilo de vida, nuestra marca de ropa y la música. Somos un colectivo de la ciudad de Medellín dedicado a la elaboración de prendas ambientadas en un estilo retro, neoyorkino y muy fresco. Amamos la música y los vinilos. Queremos darle un nuevo aire a lo vintage con lo moderno.</p>
-                        <a href="/Nosotros" class="btn btn-outline-secondary btn-lg text-white">
+                        <a href="#/Nosotros" class="btn btn-outline-secondary btn-lg text-white">
                 Leer más
               </a>
               </div>

@@ -20,7 +20,7 @@ class Slider extends React.Component {
 
 		    <div className="carousel-inner">
 		        <div className="carousel-item active">
-		            <img className="img-fluid" src={process.env.PUBLIC_URL + 'images/disco1.jpeg'} width="1150" height="80" />
+		            <img className="d-block w-100" src={process.env.PUBLIC_URL + 'images/disco1.jpeg'} width="1150" height="600" />
 		            <div className="elementos">
 		                <a className="btn btn-lg btn-secondary" href="" target="_blank" role="button">Comprar</a>
 		            </div>

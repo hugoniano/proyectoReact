@@ -15,7 +15,7 @@ class Formulario extends React.Component {
             <p className="">
               Déjales un mensaje a los Niños de Belén, con prontitud tendrás una respuesta. 
             </p>
-            <form action="" clasName="formulario">
+            <form action="" className="formulario">
               <div className="input-group mb-3">
                 <div className="input-group-prepend">
                   <i className="fas fa-user input-group-text"></i>

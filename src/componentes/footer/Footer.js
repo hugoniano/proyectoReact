@@ -9,8 +9,8 @@ class Footer extends React.Component {
     <div  className="footer">
       <div className="container p-3 footer">
         <div className="row text-center">
-          <div className="col ml-auto">
-            <button className="float-right">
+          <div className="col ml-auto ">
+            <button className="float-right ">
             <p><a href="#">HOME</a></p>
             </button>
           <p>&middot; &copy; {(new Date().getFullYear())} by The Kids of Belen Brand &middot; </p>
